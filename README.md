@@ -46,13 +46,30 @@ To compute the loss, the seed value is initialized and the loss function is dete
 
 ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/b25e534a-7e1a-4630-970f-4eb2f19f091d)
 
-Results
-https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/22854dc5-0df5-41ba-a8f7-2b95fa5506fc
-https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/95764820-7fa4-48cf-b1f7-9c1d55db7581
-https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/1bb32f6a-4022-4da2-887a-ef17c195fa67
+**Results**
+
+
+
+https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/ac7db461-b5ca-4b54-8836-807e83bf04ca
+
+
+
+https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/1dd7ff5a-54f4-4db7-95b9-b6c50b7febca
+
+
+https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/ecff6d91-7f0b-4b19-8400-afa847c8d680
+
+
+https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/aa229426-49b0-4ee7-aa8e-84d8c889d324
+
+
 
 
 
 **Regeneration**
-https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/42025bdd-dc71-43f8-bef7-33ade0fd0873
+
+
+
+https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/426d64ba-6167-442a-9e19-db85ed4bd5f0
+
 
