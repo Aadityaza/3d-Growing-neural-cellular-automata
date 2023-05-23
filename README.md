@@ -8,9 +8,9 @@ The project explores the fascinating concept of Neural Cellular Automata (NCA) a
 
 The project's objective is to develop an extension of the methodology described in the paper “Growing Neural Cellular Automata” to facilitate complex structure generation in three dimensions
 
-##Algorithm Details 
+## Algorithm Details 
 
-##Defining Target Object
+## Defining Target Object
 The process starts by representing the iniput file in a format suitable for 3d convolutional operation. Prior to training the model to learn the update rule defining the global structure of the 3d object, the object is represented as a stack of RGBA values. Every layer in the stack holds information about the 3d object for a particular z coordinate, where the layer also represents the corresponding x and y coordinates of the voxel along with the RGB value. The data is finally presented as a 4d array for further processing. Subsequently, the resulting matrix can be visualized using the matplotlib library.
 
  ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/c0e0d125-3a00-4fe8-95cd-c52f6317f5a7)
@@ -21,14 +21,14 @@ The target is defined as a 4D numpy array, where the first three dimensions repr
 
 
 
-##Define seed
+## Define seed
 After defining the target, an initial seed must be established for the structure to grow from. This seed comprises of a single cube situated at the center of the 3d space.
 
  ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/e1fe4fcd-aab4-4123-9fd0-2d3effad2666)
  
 Figure : Seed value
 
-##Model Architecture
+## Model Architecture
 
 ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/451e2b92-1709-423d-8359-5388f1369886)
 
@@ -36,7 +36,7 @@ The 2D convolution used in the original paper is replaced with a 3D convolution 
  Figure 9: Single update step of the model
 Figure above shows how deep learning is used to learn the set of rules that produce a desired multicellular pattern.
 
-##Training procedure
+## Training procedure
 
 ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/c0786559-df1d-4444-9dfd-945953f264ea)
 
@@ -45,11 +45,11 @@ Figure : Training scheme for learning target pattern
 Using a differentiable update rule, a set of rules can be found through numerical optimization techniques, such as gradient descent, to produce a desired multicellular pattern in 3D space. The approach employed in this work is reminiscent of the method outlined in the paper "Growing Neural Cellular Automata" [1], where the local rules are learned through reconstruction tasks. Similar to previous studies , the NCA (Neural Cellular Automata) endeavors to generate a target entity from a single living cell and optimize the reconstruction process using supervised learning and a reconstruction loss. Unlike th aproach in the paper _"Growing 3D Artefacts and Functional Machines with Neural Cellular Automata"_, the structure reconstruction task cannot be treated as a multiclass classification problem since there is no fixed number of classes to consider.
 To compute the loss, the seed value is initialized and the loss function is determined using mean squared error (MSE). Specifically, the loss is calculated by computing the mean of the sum of the squared differences between the first 4 channels of the output and the target structure:
 
-##Data
+## Data
 
 ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/b25e534a-7e1a-4630-970f-4eb2f19f091d)
 
-**Results**
+## Results
 
 
 
@@ -69,7 +69,7 @@ https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533
 
 
 
-**Regeneration**
+## Regeneration
 
 
 
