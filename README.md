@@ -2,7 +2,7 @@
 This project is inspired by the paper "Growing Neural Cellular Automata" found at the link: https://distill.pub/2020/growing-ca/.
 
 Find the  Colab document of this project at:
-https://drive.google.com/file/d/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01/view?usp=sharing
+https://colab.research.google.com/drive/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01?usp=sharing
 
 The project explores the fascinating concept of Neural Cellular Automata (NCA) and its application in modeling complex morphogenetic processes. The primary aim is to learn the local-level rules that govern the growth of a structure from a single cell, ultimately leading to the creation of a specific type of structure.
 
