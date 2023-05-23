@@ -1,6 +1,7 @@
 # 3d-Growing-neural-cellular-automata
 This project is inspired by the paper "Growing Neural Cellular Automata" found at the link: https://distill.pub/2020/growing-ca/.
-Find original Colab document can be found at:
+
+Find the  Colab document of this project at:
 https://drive.google.com/file/d/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01/view?usp=sharing
 
 The project explores the fascinating concept of Neural Cellular Automata (NCA) and its application in modeling complex morphogenetic processes. The primary aim is to learn the local-level rules that govern the growth of a structure from a single cell, ultimately leading to the creation of a specific type of structure.
@@ -9,7 +10,7 @@ The project's objective is to develop an extension of the methodology described 
 
 ##Algorithm Details 
 
-_Defining Target Object**_
+##Defining Target Object
 The process starts by representing the iniput file in a format suitable for 3d convolutional operation. Prior to training the model to learn the update rule defining the global structure of the 3d object, the object is represented as a stack of RGBA values. Every layer in the stack holds information about the 3d object for a particular z coordinate, where the layer also represents the corresponding x and y coordinates of the voxel along with the RGB value. The data is finally presented as a 4d array for further processing. Subsequently, the resulting matrix can be visualized using the matplotlib library.
 
  ![image](https://github.com/Aadityaza/3d-Growing-neural-cellular-automata/assets/45432533/c0e0d125-3a00-4fe8-95cd-c52f6317f5a7)
