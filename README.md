@@ -4,7 +4,7 @@ This project is inspired by the paper "Growing Neural Cellular Automata" found a
 Find the  Colab document of this project at:
 https://colab.research.google.com/drive/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01?usp=sharing
 
-The project explores the fascinating concept of Neural Cellular Automata (NCA) and its application in modeling complex morphogenetic processes. The primary aim is to learn the local-level rules that govern the growth of a structure from a single cell, ultimately leading to the creation of a specific type of structure.
+The project explores the fascinating concept of Neural Cellular Automata (NCA). The primary aim is to learn the local-level rules that govern the growth of a structure from a single cell, ultimately leading to the creation of a specific type of structure.
 
 The project's objective is to develop an extension of the methodology described in the paper “Growing Neural Cellular Automata” to facilitate complex structure generation in three dimensions
 
