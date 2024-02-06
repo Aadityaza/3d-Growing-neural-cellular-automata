@@ -2,7 +2,7 @@
 This project is inspired by the paper "Growing Neural Cellular Automata" found at the link: https://distill.pub/2020/growing-ca/.
 
 Find the  Colab document of this project at:
-https://colab.research.google.com/drive/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01?usp=sharing
+[https://colab.research.google.com/drive/1F3xIUltW6hg9AVLXfJq7c8IMRp8Leq01?usp=sharing](https://colab.research.google.com/drive/1fmxX-gzO6lgjOAXH1WIZErJ6dQeheTov)
 
 The project explores the fascinating concept of Neural Cellular Automata (NCA). The primary aim is to learn the local-level rules that govern the growth of a structure from a single cell, ultimately leading to the creation of a specific type of structure.
 
